@@ -77,7 +77,7 @@
             // Besar
             // 
             this.Besar.AutoSize = true;
-            this.Besar.Location = new System.Drawing.Point(263, 229);
+            this.Besar.Location = new System.Drawing.Point(331, 174);
             this.Besar.Name = "Besar";
             this.Besar.Size = new System.Drawing.Size(27, 13);
             this.Besar.TabIndex = 4;
@@ -86,7 +86,7 @@
             // Kecil
             // 
             this.Kecil.AutoSize = true;
-            this.Kecil.Location = new System.Drawing.Point(148, 229);
+            this.Kecil.Location = new System.Drawing.Point(6, 174);
             this.Kecil.Name = "Kecil";
             this.Kecil.Size = new System.Drawing.Size(24, 13);
             this.Kecil.TabIndex = 3;
@@ -94,7 +94,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(126, 61);
+            this.dateTimePicker1.Location = new System.Drawing.Point(90, 61);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 2;
@@ -102,7 +102,7 @@
             // value2
             // 
             this.value2.AutoSize = true;
-            this.value2.Location = new System.Drawing.Point(379, 68);
+            this.value2.Location = new System.Drawing.Point(331, 68);
             this.value2.Name = "value2";
             this.value2.Size = new System.Drawing.Size(39, 13);
             this.value2.TabIndex = 1;
@@ -111,7 +111,7 @@
             // value1
             // 
             this.value1.AutoSize = true;
-            this.value1.Location = new System.Drawing.Point(50, 68);
+            this.value1.Location = new System.Drawing.Point(6, 67);
             this.value1.Name = "value1";
             this.value1.Size = new System.Drawing.Size(39, 13);
             this.value1.TabIndex = 1;
@@ -120,7 +120,7 @@
             // vScrollBar2
             // 
             this.vScrollBar2.LargeChange = 1;
-            this.vScrollBar2.Location = new System.Drawing.Point(329, 0);
+            this.vScrollBar2.Location = new System.Drawing.Point(293, 0);
             this.vScrollBar2.Maximum = 10;
             this.vScrollBar2.Name = "vScrollBar2";
             this.vScrollBar2.Size = new System.Drawing.Size(35, 152);
@@ -130,7 +130,7 @@
             // vScrollBar1
             // 
             this.vScrollBar1.LargeChange = 1;
-            this.vScrollBar1.Location = new System.Drawing.Point(88, 3);
+            this.vScrollBar1.Location = new System.Drawing.Point(48, 0);
             this.vScrollBar1.Maximum = 10;
             this.vScrollBar1.Name = "vScrollBar1";
             this.vScrollBar1.Size = new System.Drawing.Size(35, 152);
@@ -159,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(521, 421);
+            this.ClientSize = new System.Drawing.Size(397, 232);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "Form1";

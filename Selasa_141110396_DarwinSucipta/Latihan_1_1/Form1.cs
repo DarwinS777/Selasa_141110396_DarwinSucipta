@@ -37,8 +37,8 @@ namespace WindowsFormsApplication1
             value1.Text = vScrollBar1.Value + "";
             value2.Text = vScrollBar2.Value + "";
 
-            dateTimePicker1.MinDate = DateTime.Today;
-            dateTimePicker1.MaxDate = DateTime.Today.AddYears(B - K);
+            dateTimePicker1.MinDate = new DateTime(DateTime.Today.Year - B, DateTime.Today.Month, DateTime.Today.Day);
+            dateTimePicker1.MaxDate = new DateTime(DateTime.Today.Year - K, DateTime.Today.Month, DateTime.Today.Day);
         }
     }
 }
