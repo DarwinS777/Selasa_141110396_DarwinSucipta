@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_1_1", "Latihan_1_1\Latihan_1_1.csproj", "{B0F2F2BF-9CF7-4D64-BB3F-EB636C1D1E63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_2_1", "Latihan_2_1\Latihan_2_1.csproj", "{DCB08A31-BED7-473E-9599-EFA19675ACDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Latihan_3_1", "Latihan_3_1\Latihan_3_1.csproj", "{0D811D4D-8C2C-4EE9-8881-C0E74909174B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{B0F2F2BF-9CF7-4D64-BB3F-EB636C1D1E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0F2F2BF-9CF7-4D64-BB3F-EB636C1D1E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0F2F2BF-9CF7-4D64-BB3F-EB636C1D1E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCB08A31-BED7-473E-9599-EFA19675ACDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCB08A31-BED7-473E-9599-EFA19675ACDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCB08A31-BED7-473E-9599-EFA19675ACDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCB08A31-BED7-473E-9599-EFA19675ACDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D811D4D-8C2C-4EE9-8881-C0E74909174B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D811D4D-8C2C-4EE9-8881-C0E74909174B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D811D4D-8C2C-4EE9-8881-C0E74909174B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D811D4D-8C2C-4EE9-8881-C0E74909174B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

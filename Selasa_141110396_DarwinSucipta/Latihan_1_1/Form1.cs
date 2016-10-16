@@ -16,5 +16,29 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void vScrollBar_Scroll(object sender, ScrollEventArgs e)
+        {
+            int K, B;
+            if (vScrollBar1.Value > vScrollBar2.Value)
+            {
+                Kecil.Text = vScrollBar2.Value + "";
+                Besar.Text = vScrollBar1.Value + "";
+            }
+            else
+            {
+                Kecil.Text = vScrollBar1.Value + "";
+                Besar.Text = vScrollBar2.Value + "";
+            }
+
+            K = int.Parse(Kecil.Text);
+            B = int.Parse(Besar.Text);
+
+            value1.Text = vScrollBar1.Value + "";
+            value2.Text = vScrollBar2.Value + "";
+
+            dateTimePicker1.MinDate = DateTime.Today;
+            dateTimePicker1.MaxDate = DateTime.Today.AddYears(B - K);
+        }
     }
 }
