@@ -1,1 +1,2 @@
 D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_5_1\bin\Debug\Latihan_5_1.exe.config
+D:\Kuliah\Semester V\Praktek Framework .NET Lanjutan\Selasa_141110396_DarwinSucipta\Latihan_5_1\bin\Debug\Latihan_5_1.exe.config
