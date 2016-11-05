@@ -1,0 +1,26 @@
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\Latihan_4_1.exe.config
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\Latihan_4_1.exe
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\Latihan_4_1.pdb
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.csprojResolveAssemblyReference.cache
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.Form1.resources
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.Properties.Resources.resources
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.csproj.GenerateResource.Cache
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.exe
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.pdb
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\Latihan_4_1.exe.config
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.exe
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.pdb
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\Latihan_4_1.exe
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\Latihan_4_1.pdb
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\mscorlib.dll
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\System.Net.Http.dll
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\System.Net.Http.xml
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\normidna.nlp
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\normnfc.nlp
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\normnfd.nlp
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\normnfkc.nlp
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\bin\Debug\normnfkd.nlp
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.csprojResolveAssemblyReference.cache
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.Form1.resources
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.Properties.Resources.resources
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_4_1\obj\Debug\Latihan_4_1.csproj.GenerateResource.Cache

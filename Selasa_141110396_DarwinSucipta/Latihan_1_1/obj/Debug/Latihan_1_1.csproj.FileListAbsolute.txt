@@ -16,3 +16,9 @@ D:\Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141110396_Darwin
 D:\Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\WindowsFormsApplication1.Form1.resources
 D:\Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.csproj.GenerateResource.Cache
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_1_1\bin\Debug\Latihan_1_1.exe.config
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.exe
+C:\Users\TU_SD\Desktop\C#\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.pdb
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_1_1\bin\Debug\Latihan_1_1.exe.config
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.exe
+D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.pdb
