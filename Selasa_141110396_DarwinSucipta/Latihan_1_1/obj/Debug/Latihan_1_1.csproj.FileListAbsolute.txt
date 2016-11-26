@@ -25,3 +25,9 @@ D:\Kuliah\Semester V\C#\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Lat
 D:\Kuliah\Semester V\Praktek Framework .NET Lanjutan\Selasa_141110396_DarwinSucipta\Latihan_1_1\bin\Debug\Latihan_1_1.exe.config
 D:\Kuliah\Semester V\Praktek Framework .NET Lanjutan\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.exe
 D:\Kuliah\Semester V\Praktek Framework .NET Lanjutan\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.pdb
+C:\Users\TU_SD\Downloads\Compressed\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Latihan_1_1\bin\Debug\Latihan_1_1.exe.config
+C:\Users\TU_SD\Downloads\Compressed\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.exe
+C:\Users\TU_SD\Downloads\Compressed\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.pdb
+C:\Users\ASUS\Desktop\PR\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Latihan_1_1\bin\Debug\Latihan_1_1.exe.config
+C:\Users\ASUS\Desktop\PR\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.exe
+C:\Users\ASUS\Desktop\PR\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Latihan_1_1\obj\Debug\Latihan_1_1.pdb
