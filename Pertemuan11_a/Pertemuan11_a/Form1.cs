@@ -1,0 +1,157 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+
+namespace Pertemuan11_a
+{
+    public partial class Form1 : Form
+    {
+        MySqlConnection conn;
+        MySqlDataAdapter customerDA;
+        //DataSet ds;
+        DataTable dt;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string myConnectionString = "Server=localhost;Database=testing;Uid=root;Pwd=;";
+            conn = new MySqlConnection(myConnectionString);
+            conn.Open();
+            //ds = new DataSet();
+            dt = new DataTable();
+            initializeDA();
+            customerDA.SelectCommand.ExecuteScalar();
+            //customerDA.Fill(ds, "customer");
+            customerDA.Fill(dt);
+            dgvDaftar.ReadOnly = true;
+            dgvDaftar.AllowUserToAddRows = false;
+            dgvDaftar.AllowUserToDeleteRows = false;
+            dgvDaftar.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            
+            BindingSource bs = new BindingSource();
+            //bs.DataSource = ds.Tables["customer"];
+            bs.DataSource = dt;
+            dgvDaftar.DataSource = bs;
+            //dgvDaftar.DataSource = ds.Tables["customer"];
+        }
+
+        private void initializeDA() {
+            customerDA = new MySqlDataAdapter();
+
+            //select
+            string customerSelectSql = String.Concat("Select * from customer");
+            customerDA.SelectCommand = new MySqlCommand(customerSelectSql, conn);
+
+            //insert
+            string customerInsertSql = String.Concat("INSERT INTO customer (name, address, zip_code, phone_number, email,created_at) VALUES (@name, @address, @zip_code, @phone_number, @email,@created_at)");
+            MySqlCommand customerInsertCommand = new MySqlCommand(customerInsertSql, conn);
+            customerInsertCommand.Parameters.AddWithValue("@name", txName.Text);
+            customerInsertCommand.Parameters.AddWithValue("@address", txAddress.Text);
+            customerInsertCommand.Parameters.AddWithValue("@zip_code", txZipCode.Text);
+            customerInsertCommand.Parameters.AddWithValue("@phone_number", txPhoneNumber.Text);
+            customerInsertCommand.Parameters.AddWithValue("@email", txEmail.Text);
+            customerInsertCommand.Parameters.AddWithValue("@created_at", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
+            customerDA.InsertCommand = customerInsertCommand;
+
+            //update
+            string customerUpdateSql = String.Concat("UPDATE customer SET name = @name, address = @address, zip_code = @zip_code, phone_number = @phone_number, email = @email, updated_at = @updated_at WHERE id = @id");
+            MySqlCommand customerUpdateCommand = new MySqlCommand(customerUpdateSql, conn);
+            customerUpdateCommand.Parameters.AddWithValue("@id", txId.Text);
+            customerUpdateCommand.Parameters.AddWithValue("@name", txName.Text);
+            customerUpdateCommand.Parameters.AddWithValue("@address", txAddress.Text);
+            customerUpdateCommand.Parameters.AddWithValue("@zip_code", txZipCode.Text);
+            customerUpdateCommand.Parameters.AddWithValue("@phone_number", txPhoneNumber.Text);
+            customerUpdateCommand.Parameters.AddWithValue("@email", txEmail.Text);
+            customerUpdateCommand.Parameters.AddWithValue("@updated_at", DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss"));
+            customerDA.UpdateCommand = customerUpdateCommand;
+
+            //delete
+            
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            conn.Close();
+            conn.Dispose();
+        }
+
+        private void Save_Click(object sender, EventArgs e)
+        {
+            string pesan = "";
+            if (txId.Text == "") 
+                pesan = String.Concat(customerDA.InsertCommand.ExecuteNonQuery(), " Record succesfully saved.");
+            
+            MessageBox.Show(pesan, "Save Information");
+            customerDA.SelectCommand.ExecuteScalar();
+            dt.Clear();
+            customerDA.Fill(dt);
+        }
+
+        private void Update_Click(object sender, EventArgs e)
+        {
+            initializeDA();
+            string pesan = "";
+            if (txId.Text != "")
+                pesan = String.Concat(customerDA.UpdateCommand.ExecuteNonQuery(), " Record succesfully updated.");
+            
+            MessageBox.Show(pesan, "Save Information");
+            customerDA.SelectCommand.ExecuteScalar();
+            dt.Clear();
+            customerDA.Fill(dt);
+        }      
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            if (dgvDaftar.SelectedRows.Count > 0)
+            {
+                string customerDeleteSql = String.Concat("DELETE FROM customer WHERE ID= @id");
+                MySqlCommand customerDeleteCommand = new MySqlCommand(customerDeleteSql, conn);
+                customerDeleteCommand.Parameters.AddWithValue("@id", Convert.ToString(dgvDaftar.SelectedCells[0].Value));
+                customerDeleteCommand.ExecuteNonQuery();
+                customerDA.SelectCommand.ExecuteScalar();
+                dt.Clear();
+                customerDA.Fill(dt);
+            }
+            else
+                MessageBox.Show("There's Nothing to Delete!");
+        }
+
+        private void Reset_Click(object sender, EventArgs e)
+        {
+            foreach(Control i in Controls)
+            {
+                if (i is TextBox)
+                {
+                    (i as TextBox).Clear();
+                    txName.Focus();
+                }
+            }
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void dgvDaftar_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            txId.Text = dgvDaftar.Rows[e.RowIndex].Cells[0].Value.ToString();
+            txName.Text = dgvDaftar.Rows[e.RowIndex].Cells[1].Value.ToString();
+            txAddress.Text = dgvDaftar.Rows[e.RowIndex].Cells[2].Value.ToString();
+            txZipCode.Text = dgvDaftar.Rows[e.RowIndex].Cells[3].Value.ToString();
+            txPhoneNumber.Text = dgvDaftar.Rows[e.RowIndex].Cells[4].Value.ToString();
+            txEmail.Text = dgvDaftar.Rows[e.RowIndex].Cells[5].Value.ToString();
+        }
+    }
+}

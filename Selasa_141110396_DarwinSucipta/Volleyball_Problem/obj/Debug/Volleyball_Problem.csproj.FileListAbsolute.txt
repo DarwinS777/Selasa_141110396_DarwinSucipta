@@ -16,3 +16,6 @@ C:\Users\ASUS\Desktop\PR\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_
 C:\Users\ASUS\Desktop\PR\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Volleyball_Problem\obj\Debug\Volleyball_Problem.csproj.GenerateResource.Cache
 C:\Users\ASUS\Desktop\PR\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Volleyball_Problem\obj\Debug\Volleyball_Problem.exe
 C:\Users\ASUS\Desktop\PR\Selasa_141110396_DarwinSucipta-master\Selasa_141110396_DarwinSucipta\Volleyball_Problem\obj\Debug\Volleyball_Problem.pdb
+C:\Users\Thomas Yap\Desktop\Darwin\Selasa_141110396_DarwinSucipta\Volleyball_Problem\bin\Debug\Volleyball_Problem.exe.config
+C:\Users\Thomas Yap\Desktop\Darwin\Selasa_141110396_DarwinSucipta\Volleyball_Problem\obj\Debug\Volleyball_Problem.exe
+C:\Users\Thomas Yap\Desktop\Darwin\Selasa_141110396_DarwinSucipta\Volleyball_Problem\obj\Debug\Volleyball_Problem.pdb

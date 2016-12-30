@@ -1,0 +1,23 @@
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\bin\Debug\Pertemuan11_a.exe.config
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\bin\Debug\Pertemuan11_a.exe
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\bin\Debug\Pertemuan11_a.pdb
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\bin\Debug\MySql.Data.dll
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\bin\Debug\MySql.Web.dll
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.csprojResolveAssemblyReference.cache
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.Form1.resources
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.Properties.Resources.resources
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.csproj.GenerateResource.Cache
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.exe
+E:\Projects\C#\.NET Lanjutan\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.pdb
+D:\Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Pertemuan11_a\Pertemuan11_a\bin\Debug\Pertemuan11_a.exe.config
+D:\Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.exe
+D:\Kuliah\Semester V\Pemrograman Framework .NET Lanjutan\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.pdb
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\bin\Debug\Pertemuan11_a.exe.config
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.exe
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.pdb
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\bin\Debug\Pertemuan11_a.exe
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\bin\Debug\Pertemuan11_a.pdb
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.csprojResolveAssemblyReference.cache
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.Form1.resources
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.Properties.Resources.resources
+C:\Users\Thomas Yap\Desktop\Darwin\Pertemuan11_a\Pertemuan11_a\obj\Debug\Pertemuan11_a.csproj.GenerateResource.Cache
